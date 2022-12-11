@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaHome, FaUser, FaWatchmanMonitoring, FaAngleDoubleRight, FaPhone } from 'react-icons/fa'
+import { FaHome, FaUser, FaWatchmanMonitoring, FaAngleDoubleRight, FaPhone, FaMicroblog } from 'react-icons/fa'
 
 const Navbar = () => {
     const menuItems = <React.Fragment>
         <li><Link to='/'><FaHome />Home</Link></li>
-        <li><Link><FaUser /> About</Link></li>
+        <li><Link to='/about'><FaUser /> About</Link></li>
         <li><Link to='/projects'><FaWatchmanMonitoring />Projects</Link></li>
         <li><Link to='/contact'><FaPhone />Contact Me</Link></li>
+        <li><Link to='/blog'><FaMicroblog />Blog</Link></li>
     </React.Fragment>
     return (
         <div>

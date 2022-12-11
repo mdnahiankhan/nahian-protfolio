@@ -1,12 +1,15 @@
 import React from 'react';
-import image from '../assets/Nahian.jpg';
+import image from '../assets/remove-bg (2).png';
 import { FaRegNewspaper } from 'react-icons/fa'
 const TopBanner = () => {
     return (
         <div>
-            <section className=" dark:text-gray-100 mt-10">
+            <section className=" dark:text-gray-100 mt-10" >
                 <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-evenly">
-                    <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left ">
+                    <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left " data-aos="zoom-in-down"
+                        data-aos-easing="ease-in-cubic"
+                        data-aos-duration="2000"
+                    >
                         <h1 className="text-5xl font-serif font-bold leading-none sm:text-6xl">Hellow!
                             <span className="dark:text-white"> I'm
                                 <br />
@@ -24,8 +27,13 @@ const TopBanner = () => {
                             </a>
                         </div>
                     </div>
-                    <div className="flex items-center justify-center p-6 mt-8 lg:mt-0  h-76 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 ">
-                        <img src={image} alt="" className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" />
+                    <div className="flex items-center justify-center p-6 mt-8 lg:mt-0  h-76 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 " data-aos="fade-up"
+                        data-aos-easing="ease-in-cubic"
+                        data-aos-duration="2000"
+                    >
+                        <div className="w-96 rounded-full ">
+                            <img src={image} alt='' />
+                        </div>
                     </div>
                 </div>
             </section>

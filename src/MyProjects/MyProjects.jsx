@@ -3,11 +3,15 @@ import { FaLink } from 'react-icons/fa';
 import image from "../assets/Tech-learn.jpg";
 import image2 from "../assets/top11.png";
 import image3 from "../assets/Service-Review-2.png";
+import { Badge } from 'flowbite-react';
 const MyProjects = () => {
     return (
         <div>
             <h1 className='text-center text-3xl font-bold text-white'>My Projects</h1>
-            <section className='grid lg:grid-cols-3 md:grid-cols-1 gap-6'>
+            <section className='grid lg:grid-cols-3 md:grid-cols-1 gap-6' data-aos="fade-up-left"
+                data-aos-easing="ease-in-cubic"
+                data-aos-duration="2000"
+            >
                 <div className="max-w-lg p-4 shadow-md dark:text-gray-100 rounded-xl transform transition-all hover:scale-110">
                     <div className="flex justify-between pb-4 border-bottom">
                     </div>
