@@ -7,7 +7,9 @@ const MiddleBanner = () => {
             <div className="hero ">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <img src={developer} alt="" className="max-w-sm  shadow-2xl transform transition-all hover:scale-105" />
-                    <div>
+                    <div data-aos="zoom-in-down"
+                        data-aos-easing="ease-in-cubic"
+                        data-aos-duration="2000">
                         <h1 className="text-5xl font-bold">Let me introduce Myself</h1>
                         <p className="py-2">It's a very greateful journey in my life to learn web development. Firstly web development is not an easy task to know about the core concept about Programming language</p>
                         <p className="py-2">As a web developer I am quite expert in <span className='text-violet-300 py-2'>HTML,CSS,JAVASCRIPT,REACT-JS,NODE-JS,MonogoDB</span> </p>

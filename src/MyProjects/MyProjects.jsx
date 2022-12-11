@@ -3,12 +3,12 @@ import { FaLink } from 'react-icons/fa';
 import image from "../assets/Tech-learn.jpg";
 import image2 from "../assets/top11.png";
 import image3 from "../assets/Service-Review-2.png";
-import { Badge } from 'flowbite-react';
+import { Link } from 'react-router-dom';
 const MyProjects = () => {
     return (
         <div>
             <h1 className='text-center text-3xl font-bold text-white'>My Projects</h1>
-            <section className='grid lg:grid-cols-3 md:grid-cols-1 gap-6' data-aos="fade-up-left"
+            <section className='grid lg:grid-cols-3 md:grid-cols-1 gap-6 font-serif' data-aos="fade-up-left"
                 data-aos-easing="ease-in-cubic"
                 data-aos-duration="2000"
             >
@@ -29,7 +29,7 @@ const MyProjects = () => {
                             </div>
                             <div className='py-6 grid lg:grid-cols-3 md:grid-cols-1 '>
                                 <a target="blank" href="https://cheerful-cajeta-241a6d.netlify.app/"><button className='btn btn-accent'><FaLink />Live Link</button></a>
-                                <a target="blank" href="https://cheerful-cajeta-241a6d.netlify.app/"><button className='btn btn-accent'>GitHub Link</button></a>
+                                <a target="blank" href="https://github.com/mdnahiankhan/quiz-answer-website"><button className='btn btn-accent '>GitHub Link</button></a>
                             </div>
                         </div>
                     </div>
@@ -90,6 +90,10 @@ const MyProjects = () => {
                     </div>
                 </div>
             </section>
+            <div className='text-center mt-5' data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                <Link to='/projects'><button className='btn btn-accent '>Course Details</button></Link>
+            </div>
         </div>
     );
 };

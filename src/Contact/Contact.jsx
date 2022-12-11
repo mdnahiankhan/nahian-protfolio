@@ -24,13 +24,15 @@ const Contact = () => {
 
     return (
         <div>
-            <div className="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32  dark:text-gray-900">
+            <div className="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32  dark:text-gray-900" data-aos="zoom-in-down"
+                data-aos-easing="ease-in-cubic"
+                data-aos-duration="2000">
                 <div className="flex flex-col justify-between">
                     <div className="space-y-2">
                         <h2 className="text-4xl font-bold leading-tight lg:text-5xl text-white">Let's talk!</h2>
                         <div className="dark:text-gray-400">Find me On</div>
                         <div>
-                            <h className='text-white mb-4'><span className=' font-bold'><FaSearchLocation className='inline text-xl' /> Address: </span> Jamalpur,2000 Dhaka Bangladesh </h>
+                            <h className='text-white mb-4'><span className=' font-bold'><FaSearchLocation className='inline text-xl' /> Address: </span> Jamalpur,2000 Dhaka, Bangladesh. </h>
                         </div>
                         <div className='mt-5'>
                             <h className='text-white mt-4'><span className=' font-bold'><FaPhone className='inline text-xl' /> Phone: </span>+8801753471022</h>

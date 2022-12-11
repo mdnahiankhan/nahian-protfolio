@@ -17,7 +17,7 @@ const TopBanner = () => {
                         </h1>
                         <p className="mt-6 mb-6 text-3xl font-serif sm:mb-12">Junior Web Developer
                         </p>
-                        <p className=' mb-4 font-serif'>This is My official protfolio website to shows all details and work experience of web development.</p>
+                        <p className=' mb-4 font-serif font-bold text-xl'>This is My official protfolio website to shows all details and work experience of web development.</p>
                         <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
                             <a target='blank' download="https://drive.google.com/file/d/16ClQcDnC0aYy9ku-vliwT959-wQnjFtk/view?usp=sharing" href="https://drive.google.com/file/d/16ClQcDnC0aYy9ku-vliwT959-wQnjFtk/view?usp=sharing"
                             >

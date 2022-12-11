@@ -2,11 +2,11 @@ import React from 'react';
 
 const Services = () => {
     return (
-        <section className="py-6  dark:text-gray-50">
+        <section className="py-6  dark:text-gray-50 font-serif">
             <div className="container mx-auto p-4 sm:p-10">
                 <div className="mb-16 space-y-4 text-center">
-                    <h1 className="text-4xl font-semibold leading-tight">Skill</h1>
-                    <p className="px-4 sm:px-8 lg:px-24">Lets Talk about my skill. I can create responsive website using these Technologies. These Technologies are given below on my skill session.</p>
+                    <h1 className="text-4xl font-semibold leading-tight ">My Skills</h1>
+                    <p className="px-4 sm:px-8 lg:px-24  font-bold">Lets Talk about my skill. I can create responsive website using these Technologies. These Technologies are given below on my skill session.</p>
                 </div>
                 <div className="grid max-w-md grid-cols-1 gap-6 mx-auto auto-rows-fr lg:max-w-full lg:gap-2 xl:gap-6 lg:grid-cols-3">
                     <div className="relative z-0 flex flex-col items-center p-8 border rounded-md dark:bg-gray-800 transform transition-all hover:scale-110">
